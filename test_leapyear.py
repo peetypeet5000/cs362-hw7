@@ -10,3 +10,7 @@ class TestLeapyear:
         #second test
         assert leapyear.leapyear(3) == "3 is not a leap year"
         assert leapyear.leapyear(2001) == "2001 is not a leap year"
+
+        #third test
+        assert leapyear.leapyear(100) == "100 is not a leap year"
+        assert leapyear.leapyear(3700) == "3700 is not a leap year"
