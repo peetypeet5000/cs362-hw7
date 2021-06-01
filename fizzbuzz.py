@@ -1,2 +1,4 @@
+#takes an int i and returns the fizzbuzz output at that line
 def fizzbuzz(i):
-    pass
+    if i % 3 == 0:
+        return 'Fizz'
