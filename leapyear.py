@@ -2,7 +2,10 @@
 def leapyear(year):
     output = ""
     if year % 4 == 0:
-        output = str(year) + " is a leap year"
+        if year % 100 == 0:
+            output = str(year) + " is not a leap year"
+        else:
+            output = str(year) + " is a leap year"
     else:
         output = str(year) + " is not a leap year"
 
