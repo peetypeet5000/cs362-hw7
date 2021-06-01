@@ -7,3 +7,6 @@ class TestFizzbuzz:
             assert fizzbuzz.fizzbuzz(i) == "Fizz"
         for i in [5, 10, 20]:
             assert fizzbuzz.fizzbuzz(i) == "Buzz"
+
+        for i in [15, 30, 60]:
+            assert fizzbuzz.fizzbuzz(i) == "FizzBuzz"
