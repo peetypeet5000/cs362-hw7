@@ -1,6 +1,10 @@
 #takes an int i and returns the fizzbuzz output at that line
 def fizzbuzz(i):
+    output = ''
     if i % 3 == 0:
-        return 'Fizz'
+        output += 'Fizz'
     if i % 5 == 0:
-        return 'Buzz'
+        output += 'Buzz'
+    
+    return output
+    
